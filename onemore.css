@@ -1,150 +1,147 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 0;
-}
-.top-main{
-    position: sticky;
-    top: 0;
-    width: 100%;
-    height: 53px;
-    background-color: #1b1b1b;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-.top-logo{
-    padding-right: 36px;
-
-  
-
-
-}
-.top-middle{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  
- 
-   
-}
-.top-right{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    padding-left: 60px;
-}
-.logo{
-    height: 36px;
-
-}
-.product{
- 
-    
-
-}
-.openbox{
-  
-}
-.reviews{
-
-
-}
-.info{
-   
-    color: aliceblue;
-    font-family: Helvetica,Helvetica Neue,Arial,Lucida Grande,sans-serif;
-    font-style: normal;
-    font-size: 15px;
-    font-weight: 550;
-    cursor: pointer; 
-    text-align: center;
-    padding: 25px;
-
-}
-
-.info:hover{
-    text-decoration: underline;
-    }
-.account-icon {
-    width: 15px;
-    padding-left: 180px;
-    padding-right: 25px;
-    /* padding-top: 16px; */
-    cursor: pointer;
-}
-.shop{
-    width: 19px;
-    /* padding-left: 29px; */
-    /* padding-top: 14px; */
-    cursor: pointer;
-
-}
-.content1{
-    max-width: 100%;
-    height: 1034px;
-    overflow:hidden;
-
-}
-.middle-bar{
-    width: 100%;
-    height: 40px;
-    background: #b6b3b3;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.featured{
-    width: 100%;
-    height: 110px;
-    color: rgb(0, 0, 0);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 35px;
-    align-items: center;
-    letter-spacing: 2px;
+    padding: 0;
     font-family: 'Montserrat',sans-serif;
 
+
 }
-.featured-products-top{
+
+header{
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-
+    height: 52px;
+    background-color: black;
+    position: fixed;
 
 }
-.featured-products-bottom{
+.nav-to-middle{
+    height: 60px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    padding-left: 200px ;
+    padding-right: 200px;
+
+}
+.nav-logo img{
+    align-items: center;
+    padding-top: 10px;
+}
+
+.nav-items{
+    display: flex;
+    color: white;
+}
+.products{
+    padding-right: 50px;
+}
+.open-box{
+    padding-right: 50px;
+}
+.nav-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60px;
+}
+.account img{
+height: 13px;
+padding-right: 25px;
+
+}
+.shop img{
+    height: 17px;
+}
+.banner{
+    overflow: hidden ;
+ 
+}
+.banner img{
+    margin-top: -7px;
+    margin-bottom: -190px;
+    height: 896px;
+}
+.after-banner{
+    display: flex;
+    
+}
+.gray-bar{
     width: 100%;
+    height: 40px;
+    background-color: #b0abb0;
     display: flex;
-    justify-content: space-around;
-}
-.items-top{
-    display: flex;
-
-}
-.items-bottom{
-    display: flex;
-}
-ul{
-    list-style: none;
-}
-li{
-    padding: 20px;
-}
-.items-discription{
-    display: flex;
-    padding-left: 283px;
-    padding-right: 283px;
-
-}
-.prouct-discription{
-    padding-left: 100px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 40px;
+    padding-left: 70px;
     padding-right: 100px;
-    letter-spacing: 2px;
+}
+.purchase p{
+    margin-left: 742px;
+    letter-spacing: 5px;
+   margin-bottom: 40px;
+}
+.top-products{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 310px;
+    margin-right: 284px;
+}
+
+.bottom-products{
+    display: flex;
+}
+.name-and-price1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 265px;
+    margin-right: 384px;
+
 
 
 }
+.name-and-price1 li{
+    list-style-type: none;
+    letter-spacing: 3px;
+    font-family: Helvetica, "Helvetica Neue", Arial, "Lucida Grande", sans-serif;
+    line-height: 22.5px ;
+
+}
+.name-and-price1 :nth-child(2){
+margin-right: 68px;
+
+}
+.name-and-price1 :nth-child(1){
+    margin-left: 22px;
+    
+    }
+.name-and-price1 :nth-child(3){
+        margin-right: 23px;
+
+        }
+.sale-price{
+
+    display: flex;
+    justify-content: space-evenly;
+}
+.sale-price li{
+    list-style-type: none;
+}
+.sale-price :nth-child(1){
+    margin-left: 22px;
+    margin-right: 10px;
+    display: flex;
+}
+.sale-price :nth-child(2){
+    display: flex;
+    margin-right: 68px;
+}
+.sale-price :nth-child(3){
+    display: flex;
+    margin-right: 23px;
+}
+
