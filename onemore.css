@@ -8,6 +8,9 @@ body{
 
 
 }
+body li{
+    list-style: none;
+}
 
 header{
     width: 100%;
@@ -27,6 +30,9 @@ header{
     padding-right: 200px;
 
 }
+.nav-to-middle :hover{
+    cursor: pointer;
+}
 .nav-logo img{
     align-items: center;
     padding-top: 10px;
@@ -35,6 +41,10 @@ header{
 .nav-items{
     display: flex;
     color: white;
+}
+.nav-items  :hover{
+    cursor: pointer;
+    text-decoration: underline;
 }
 .products{
     padding-right: 50px;
@@ -85,6 +95,10 @@ padding-right: 25px;
     letter-spacing: 5px;
    margin-bottom: 40px;
 }
+.top-products img :hover{
+
+    text-decoration: underline;
+}
 .top-products{
     display: flex;
     justify-content: space-between;
@@ -105,6 +119,7 @@ padding-right: 25px;
     margin-left: -40px;
     margin-right: -27px;
     text-decoration: line-through;
+    color: #787878;
 }
 .sales-price{
     color: red;
@@ -123,6 +138,7 @@ padding-right: 25px;
 .sold-out{
     margin-left: -40px;
     margin-right: -27px;
+    color: #787878;
 }
 
 .bottom-banner{
@@ -187,23 +203,95 @@ padding-right: 25px;
     height: 35px;
     border: 1px solid #787878;
     color: #787878;
+    align-items: center;
     text-align: center;
-    position: absolute;
-    left: 45%;
-  
+    padding-top: 5px;
+   display: grid;
+   margin-left: 800px;
 }
 
-.footer-final{
+
+footer{
 
     width: 100%;
-    height: 200px;
-    background-color: black;
-    margin-top: 130px;
-
-
-}
-
-.footer-center{
+    height: 250px;
+    background-color: #181818;
+    margin-top: 125px;
     display: flex;
-    color: white;
+    justify-content: center;
 }
+.center-part{
+    display: flex;
+    margin-top: 50px;
+    margin-right: 100px;
+
+}
+.first-section{
+    display: flex;
+    margin-right: 100px;
+    color: #787878;
+    line-height: 30px;
+    font-size: 15px;
+}
+.second-section{
+    display: flex;
+    margin-top: 15px;
+
+
+}
+.thord-section{
+    display: flex;
+    color: #787878;
+    margin-left: 50px;
+    flex-direction: column;
+}
+.thord-section :nth-child(1){
+    display: flex;
+    margin-bottom: 10px;
+}
+.thord-section :nth-child(2){
+    font-size: 13px;
+}
+.email{
+
+    width: 150px;
+    height: 55px;
+}
+.email input{
+    width: 95%;
+    height: 80%;
+    padding-left: 10px;
+    font-size: 15px;
+    
+    
+}
+.subscribe{
+    width: 150px;
+    height: 55px;
+
+}
+.subscribe input{
+    width: 95%;
+    height: 80%;
+    background:red;
+    border: none;
+    color: white;
+    text-transform: uppercase;  
+}
+.thord-section img{
+    margin: 5px;
+    margin-top: 18px;
+    height: 30px;
+    
+}
+.thord-section p{
+
+    padding-top: 8px;
+    font-size: 15px;
+}
+
+
+   
+
+
+
